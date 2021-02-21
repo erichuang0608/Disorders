@@ -23858,7 +23858,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 section {
-    padding: 120px 0;
+    padding: 220px 0 60px 0;
     overflow: hidden;
     background: #fff
 }
@@ -32740,12 +32740,12 @@ section {
 }
 
 @media (max-width: 1199px) {
+    /*modify hight*/
     section {
-        padding: 90px 0
+        padding: 220px 0 60px 0
     }
-
         section.md {
-            padding: 70px 0
+            padding: 200px 0 40px 0
         }
 
     .md-height-auto {
@@ -32846,12 +32846,13 @@ section {
         height: auto
     }
 
+    /*modify hight*/
     section {
-        padding: 70px 0
+        padding: 20px 0 20px 0
     }
 
         section.md {
-            padding: 50px 0
+            padding: 10px 0 10px 0
         }
 
     .sm-vertical-align-middle {
